@@ -36,9 +36,23 @@ The following steps outline the implementation steps learned during the course o
 - GroupBox - creates a stylized view of info grouped together - used in Nutrition Info to highlight and separate from rest of Recipe information
 - Styling and formatting - SwiftUI gives an amazingly concise declarative approach to programming user interfaces
 - CoreData - when starting a project, Xcode will generate all the required file templates with code and the managed object model for us if we select the CoreData option. The CoreData allows us to Create, Read, Update and Delete a database item (CRUD method). 
--  CoreData is a native solution provided by Apple to store, retrieve, edit, update or delete data. It's the model layer in the application. In this case, CoreData manages the item/task entity, and it's attribute is a timestamp which is a Date Field. 
+-  CoreData is a native solution provided by Apple to store, retrieve, edit, update or delete data. It's the model layer in the application. In this case, CoreData manages the item/task entity, and it's attribute is a timestamp which is a Date Field. It isn't a database, it operates on in memory (it keeps the object graph it manages in memory). When setting up your project, prompt you to configure entities which represent data models. You can define things for each entity there, like the Attributes and relationships
+-  Coredata explanation - https://medium.com/@ankurvekariya/core-data-crud-with-swift-4-2-for-beginners-40efe4e7d1cc
+### Create Records to Core Data
+The process of adding the records to Core Data has following tasks
+- Refer to persistentContainer from appdelegate
+- Create the context from persistentContainer
+- Create an entity with User
+- Create new record with this User Entity
+- Set values for the records for each key
 
-
+### Retrieving Data
+   The process of fetching the saved data is very easy as well. It has the following task
+- Prepare the request of type NSFetchRequest for the entity (User in our example)
+if required use predicate for filter data
+- Fetch the result from context in the form of array of [NSManagedObject]
+- Iterate through an array to get value for the specific key
+- 
 ## Technologies
 - Swift 5
 - SwiftUI 2.0 Framework
