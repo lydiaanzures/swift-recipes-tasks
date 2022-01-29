@@ -25,7 +25,12 @@ The following steps outline the implementation steps learned during the course o
     - Adding a scale effect to the view
 5. Creating a new SwiftUI file to create an Onboarding view with Onboarding Cards, and using a for each loop to display 6 recipe cards.
 
-
+## Selection of Cool Things Learned
+- isAnimating() function - Returns a Boolean value indicating whether the animation is running - used for Example in the Recipe Card View to animate the food image, also used iin Recipe Header view. 
+- Live Previews for individual files and components vs. Build Preview based on Device Selection - Live Preview has clickable elements that take you to the relevant place in code. 
+- Ability to configure Portrait Mode, Landscape Mode in XCode Preferences for App
+- Ability to create different views for different components, even within same page (i.e. Recipe Header and Task View are separate files but come together in a Recipe Detail View.
+- GroupBox - creates a stylized view of info grouped together - used in Nutrition Info to highlight and separate from rest of Recipe information
 
 ## Technologies
 - Swift 5
