@@ -12,58 +12,41 @@ import SwiftUI
 
 let recipesData: [Recipe] = [
   Recipe(
-      title: "Blueberry",
-      headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
-      image: "blueberry",
+      title: "Steak Tacos",
+      headline: "asy, quick, authentic carne asada street tacos you can now make right at home! Top with onion, cilantro + fresh lime juice! SO GOOD!",
+      image: "tacos",
       gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")],
       description: """
-        Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
+        It’s a quick recipe using a simple marinade for your skirt steak. It just needs 1 hour of marinating before you throw it onto a skillet. From there, you can top off your tacos with diced onion, cilantro and fresh lime juice.
 
-        Commercial blueberries—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.
-
-        Blueberries are usually prostrate shrubs that can vary in size from 10 centimeters (3.9 in) to 4 meters (13 ft) in height. In commercial production of blueberries, the species with small, pea-size berries growing on low-level bushes are known as "lowbush blueberries" (synonymous with "wild"), while the species with larger berries growing on taller cultivated bushes are known as "highbush blueberries".
-
-        Canada is the leading producer of lowbush blueberries, while the United States produces some 40% of the world supply of highbush blueberries.
-
-        USES
-
-        Blueberries are sold fresh or are processed as individually quick frozen (IQF) fruit, purée, juice, or dried or infused berries. These may then be used in a variety of consumer goods, such as jellies, jams, blueberry pies, muffins, snack foods, or as an additive to breakfast cereals.
-
-        Blueberry jam is made from blueberries, sugar, water, and fruit pectin. Blueberry sauce is a sweet sauce prepared using blueberries as a primary ingredient.
-
-        Blueberry wine is made from the flesh and skin of the berry, which is fermented and then matured; usually the lowbush variety is used.
-
-        NUTRIENTS
-
-        Blueberries consist of 14% carbohydrates, 0.7% protein, 0.3% fat and 84% water (table). They contain only negligible amounts of micronutrients, with moderate levels (relative to respective Daily Values) (DV) of the essential dietary mineral manganese, vitamin C, vitamin K and dietary fiber (table).
-
-        Generally, nutrient contents of blueberries are a low percentage of the DV (table). One serving provides a relatively low caloric value of 57 kcal with a glycemic load of 6.
+        Commercial tacos—both wild (lowbush) and cultivated (highbush)—are all native to North America. The highbush varieties were introduced into Europe during the 1930s.
+        Mexico is the leading producer of tacos, while the United States produces some 40% of the world supply of tacos.
         """,
       nutrition: ["240 kJ (57 kcal)","9.96 g","0.33 g","0.74 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Strawberry",
+      title: "Raspberry Shortcake",
       headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
-      image: "strawberry",
+      image: "raspberry",
       gradientColors: [Color("ColorStrawberryLight"), Color("ColorStrawberryDark")],
       description: """
-        The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
+        The garden raspberry (or simply raspberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
 
-        The strawberry is not, from a botanical point of view, a berry. Technically, it is an aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's ovaries but from the receptacle that holds the ovaries.[4] Each apparent "seed" (achene) on the outside of the fruit is actually one of the ovaries of the flower, with a seed inside it.
+        The raspberry is not, from a botanical point of view, a berry. Technically, it is an aggregate accessory fruit, meaning that the fleshy part is derived not from the plant's ovaries but from the receptacle that holds the ovaries.[4] Each apparent "seed" (achene) on the outside of the fruit is actually one of the ovaries of the flower, with a seed inside it.
 
         CULINARY
 
-        In addition to being consumed fresh, strawberries can be frozen or made into jam or preserves,[45] as well as dried and used in prepared foods, such as cereal bars. Strawberries and strawberry flavorings are a popular addition to dairy products, such as strawberry milk, strawberry ice cream, strawberry milkshakes/smoothies and strawberry yogurts.
+        In addition to being consumed fresh, raspberries can be frozen or made into jam or preserves,[45] as well as dried and used in prepared foods, such as cereal bars. Strawberries and strawberry flavorings are a popular addition to dairy products, such as strawberry milk, strawberry ice cream, strawberry milkshakes/smoothies and strawberry yogurts.
 
-        In the United Kingdom, "strawberries and cream" is a popular dessert consumed at the Wimbledon tennis tournament.[5] Strawberries and cream is also a staple snack in Mexico, usually available at ice cream parlors. In Sweden, strawberries are a traditional dessert served on St John's Day, also known as Midsummer's Eve. Depending on area, strawberry pie, strawberry rhubarb pie, or strawberry shortcake are also common. In Greece, strawberries may be sprinkled with sugar and then dipped in Metaxa, a brandy, and served as a dessert. In Italy, strawberries are used for various desserts and as a common flavoring for gelato (gelato alla fragola).
+        In the United Kingdom, "raspberries and cream" is a popular dessert consumed at the Wimbledon tennis tournament.[5] Strawberries and cream is also a staple snack in Mexico, usually available at ice cream parlors. In Sweden, strawberries are a traditional dessert served on St John's Day, also known as Midsummer's Eve. Depending on area, strawberry pie, strawberry rhubarb pie, or strawberry shortcake are also common. In Greece, strawberries may be sprinkled with sugar and then dipped in Metaxa, a brandy, and served as a dessert. In Italy, strawberries are used for various desserts and as a common flavoring for gelato (gelato alla fragola).
 
         Suonenjoki in North Savonia, Finland is famous small town for its strawberries, that's why is also known as "the Strawberry Town" or "the Strawberry Capital". Lots of foreign people, mainly from Ukraine and Russia, come to Suonenjoki in summer to work on strawberry farms. That makes Suonenjoki the most international town of Finland at summer. There is a party in Suonenjoki in July called Mansikkakarnevaalit, "Strawberry Carnival".
 
         NUTRITION
 
-        One serving (100 g; see Table) of strawberries contains approximately 33 kilocalories, is an excellent source of vitamin C, a good source of manganese, and provides several other vitamins and dietary minerals in lesser amounts.
+        One serving (100 g; see Table) of raspberries contains approximately 33 kilocalories, is an excellent source of vitamin C, a good source of manganese, and provides several other vitamins and dietary minerals in lesser amounts.
 
-        Strawberries contain a modest amount of essential unsaturated fatty acids in the achene (seed) oil.
+        They contain a modest amount of essential unsaturated fatty acids in the achene (seed) oil.
         """,
       nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
@@ -128,12 +111,12 @@ let recipesData: [Recipe] = [
       nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Lime",
-      headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
-      image: "lime",
+      title: "Tiramisu",
+      headline: "A creamy dessert of espresso-soaked ladyfingers surrounded by lightly sweetened whipped cream and a rich mascarpone.",
+      image: "tiramisu",
       gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
       description: """
-      A lime (from French lime, from Arabic līma, from Persian līmū, "lemon")[1] is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.
+      Done correctly, a classic tiramisù can be transcendent. A creamy dessert of espresso-soaked ladyfingers surrounded by lightly sweetened whipped cream and a rich mascarpone, tiramisù relies heavily on the quality of its ingredients. If you don’t have a barista setup at home, pick up the espresso at a local coffee shop, or use strongly brewed coffee. As for the ladyfingers, make your own or buy them, but keep in mind that store-bought varieties can range from soft and spongy (like angel food cake) to hard and crunchy (like biscotti). Both kinds will work here, but if you're using the softer variety, stick to a light brushing of espresso, instead of a deep dip.
 
       There are several species of citrus trees whose fruits are called limes, including the Key lime (Citrus aurantiifolia), Persian lime, kaffir lime, and desert lime. Limes are a rich source of vitamin C, are sour, and are often used to accent the flavours of foods and beverages. They are grown year-round.[3] Plants with fruit called "limes" have diverse genetic origins; limes do not form a monophyletic group.
 
@@ -158,51 +141,26 @@ let recipesData: [Recipe] = [
       nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnasium, Phosphorus, Potassium, Sodium"]
     ),
   Recipe(
-      title: "Pomegranate",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "pomegranate",
+      title: "Strawberry Cheesecake",
+      headline: "ook no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence.",
+      image: "cheesecake",
       gradientColors: [Color("ColorPomegranateLight"), Color("ColorPomegranateDark")],
       description: """
-        The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.
+        To me, classic cheesecake is creamy, silky, and smooth. My cheesecake recipe is not quite as dense as New York cheesecake, but boasts equal richness and is just as special. It’s thick, it’s velvety, and there’s no denying its decadence. When I imagine what Chandler and Rachel’s stolen cheesecake tastes like, it’s this!
 
-        The pomegranate originated in the region extending from Iran to northern India, and has been cultivated since ancient times throughout the Mediterranean region. It was introduced into Spanish America in the late 16th century and into California by Spanish settlers in 1769.
-
-        The fruit is typically in season in the Northern Hemisphere from September to February, and in the Southern Hemisphere from March to May. As intact sarcotestas or juice, pomegranates are used in baking, cooking, juice blends, meal garnishes, smoothies, and alcoholic beverages, such as cocktails and wine.
-
-        DESCRIPTION
-
-        Red-purple in color, the pomegranate fruit husk has two parts: an outer, hard pericarp, and an inner, spongy mesocarp (white "albedo"), which comprises the fruit inner wall where seeds attach. Membranes of the mesocarp are organized as nonsymmetrical chambers that contain seeds inside sarcotestas, which are embedded without attachment to the mesocarp. Containing juice, the sarcotesta is formed as a thin membrane derived from the epidermal cells of the seeds. The number of seeds in a pomegranate can vary from 200 to about 1,400.
-
-        Botanically, the edible fruit is a berry with seeds and pulp produced from the ovary of a single flower. The fruit is intermediate in size between a lemon and a grapefruit, 5–12 cm (2–5 in) in diameter with a rounded shape and thick, reddish husk.
-
-        CULTIVATION
-
-        Pomegranate granatum is grown for its fruit crop, and as ornamental trees and shrubs in parks and gardens. Mature specimens can develop sculptural twisted-bark multiple trunks and a distinctive overall form. Pomegranates are drought-tolerant, and can be grown in dry areas with either a Mediterranean winter rainfall climate or in summer rainfall climates. In wetter areas, they can be prone to root decay from fungal diseases. They can be tolerant of moderate frost, down to about −12 °C (10 °F).
-
-        Insect pests of the pomegranate can include the pomegranate butterfly Virachola isocrates and the leaf-footed bug Leptoglossus zonatus, and fruit flies and ants are attracted to unharvested ripe fruit. Pomegranate grows easily from seed, but is commonly propagated from 25 to 50 cm (10 to 20 in) hardwood cuttings to avoid the genetic variation of seedlings. Air layering is also an option for propagation, but grafting fails.
+        Preparing my cheesecake recipe is rather simple– it’s baking the cheesecake that could result in a flop. Many factors are at play like the springform pan leaking, the surface of the cheesecake cracking, under-baking, over-baking, etc. I have plenty of tricks that will help guarantee classic cheesecake perfection, including determining when the cheesecake is done and everything you need to know about a cheesecake water bath.
         """,
       nutrition: ["346 kJ (83 kcal)","13.67 g","1.17 g","1.67 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Pear",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "pear",
+      title: "Brioche",
+      headline: "This brioche bread is ultra soft, rich, and buttery! Not only delicious to eat, but easy to make.",
+      image: "brioche",
       gradientColors: [Color("ColorPearLight"), Color("ColorPearDark")],
       description: """
-        The pear (/ˈpɛər/) tree and shrub are a species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees.
+        Brioche bread is a French bread, and a cross between a pastry and bread.
 
-        The tree is medium-sized and native to coastal as well as mildly temperate regions of Europe, north Africa and Asia. Pear wood is one of the preferred materials in the manufacture of high-quality woodwind instruments and furniture.
-
-        About 3000 known varieties of pears are grown worldwide. The fruit is consumed fresh, canned, as juice, and dried.
-
-        DESCRIPTION
-
-        The pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia. It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.
-
-        The leaves are alternately arranged, simple, 2–12 centimetres (1–4 1⁄2 in) long, glossy green on some species, densely silvery-hairy in some others; leaf shape varies from broad oval to narrow lanceolate. Most pears are deciduous, but one or two species in southeast Asia are evergreen.
-        
-        Most are cold-hardy, withstanding temperatures as low as −25 to −40 °C (−13 to −40 °F) in winter, except for the evergreen species, which only tolerate temperatures down to about −15 °C (5 °F).
-
+        This is because the bread is enriched with butter and eggs. It belongs to the family of viennoisseries (think croissants, Danish pastries, sweet rolls etc.). It’s a very buttery, soft and delicious bread and can be made into sweet brioche or savory brioche.
         CULTIVATION
 
         According to Pear Bureau Northwest, about 3000 known varieties of pears are grown worldwide.[9] The pear is normally propagated by grafting a selected variety onto a rootstock, which may be of a pear variety or quince. Quince rootstocks produce smaller trees, which is often desirable in commercial orchards or domestic gardens.
@@ -274,26 +232,14 @@ let recipesData: [Recipe] = [
       nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Watermelon",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "watermelon",
+      title: "Key Lime Pie",
+      headline: "art and sweet and incredibly easy, this Key Lime Pie is sure to be a family favorite!",
+      image: "keylime",
       gradientColors: [Color("ColorWatermelonLight"), Color("ColorWatermelonDark")],
       description: """
-        Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.
+        The pie starts with a graham cracker crust. I am terrible at crusts but gosh darnit, a homemade graham cracker crust tastes WAY better than a store bought one and it’s pretty simple to make. Just some graham cracker crumbs, sugar and butter will do the trick.
 
-        Watermelon is a scrambling and trailing vine in the flowering plant family Cucurbitaceae. There is evidence from seeds in Pharaoh tombs of watermelon cultivation in Ancient Egypt. Watermelon is grown in favorable climates from tropical to temperate regions worldwide for its large edible fruit, which is a berry with a hard rind and no internal divisions, and is botanically called a pepo.
 
-        The sweet, juicy flesh is usually deep red to pink, with many black seeds, although seedless varieties exist. The fruit can be eaten raw or pickled, and the rind is edible after cooking. It is commonly consumed as a juice or as an ingredient in mixed beverages.
-
-        DESCRIPTION
-
-        The watermelon is an annual that has a prostrate or climbing habit. Stems are up to 3 metres (10 feet) long and new growth has yellow or brown hairs. Leaves are 60 to 200 millimetres (2 1⁄4 to 7 3⁄4 inches) long and 40 to 150 mm (1 1⁄2 to 6 in) wide. These usually have three lobes which are themselves lobed or doubly lobed. Plants have both male and female flowers on 40-millimetre-long (1 1⁄2 in) hairy stalks. These are yellow, and greenish on the back.
-
-        The watermelon is a large annual plant with long, weak, trailing or climbing stems which are five-angled (five-sided) and up to 3 m (10 ft) long. Young growth is densely woolly with yellowish-brown hairs which disappear as the plant ages. The leaves are large, coarse, hairy pinnately-lobed and alternate; they get stiff and rough when old. The plant has branching tendrils.
-
-        The white to yellow flowers grow singly in the leaf axils and the corolla is white or yellow inside and greenish-yellow on the outside. The flowers are unisexual, with male and female flowers occurring on the same plant (monoecious). The male flowers predominate at the beginning of the season; the female flowers, which develop later, have inferior ovaries. The styles are united into a single column. The large fruit is a kind of modified berry called a pepo with a thick rind (exocarp) and fleshy center (mesocarp and endocarp).
-
-        Wild plants have fruits up to 20 cm (8 in) in diameter, while cultivated varieties may exceed 60 cm (24 in). The rind of the fruit is mid- to dark green and usually mottled or striped, and the flesh, containing numerous pips spread throughout the inside, can be red or pink (most commonly), orange, yellow, green or white.
 
         CULINARY
 
