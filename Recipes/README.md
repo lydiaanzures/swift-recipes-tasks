@@ -19,10 +19,10 @@ The following steps outline the implementation steps learned during the course o
 2. Add app icons and color files to make gradients
 3. Use StickPNG to download transparent image files for use in our application. Images in app downloaded from: https://www.stickpng.com/search?q=transparent%20png%20food&page=10
 4. Developed an Onboarding Screen
-    a. Creating a Recipe Card View
-    b. Adding an image Card View and adding a background, title, etc.
-    c. Creating a button component for the Card View
-    d. Adding a scale effect to the view
+    - Creating a Recipe Card View
+    - Adding an image Card View and adding a background, title, etc.
+    - Creating a button component for the Card View
+    - Adding a scale effect to the view
 5. Creating a new SwiftUI file to create an Onboarding view with Onboarding Cards, and using a for each loop to display 6 recipe cards.
 
 
