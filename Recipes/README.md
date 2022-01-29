@@ -8,6 +8,9 @@ This Recipes Encyclopedia is an iOS app designed as a colorful encyclopedia of p
 ## Screenshots
 ![Screenshot](screen.png?raw=true "Optional Title")
 
+## Beta-Testing Files Link
+https://airtable.com/appHKoVZFaeJtQxDq/tblUa6iZBwZi1jBNY/viwJEBGfmPnNfVXBM/rec8XXM8NxhYvDggL/fldq4DVPVfaOXJ3dG/attHGn188U9iZjOVY?blocks=hide
+
 ## Implementation 
 Tutorial series used - "iOS tutorial for Beginner App Developers": https://www.youtube.com/watch?v=PNI-NgOz1jM
 This Youtube tutorial series walked through SwiftUI basics and Swift 5 basics. 
