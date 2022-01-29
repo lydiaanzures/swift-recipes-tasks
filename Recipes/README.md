@@ -4,7 +4,6 @@
 
 This Recipes Encyclopedia is an iOS app designed as a colorful encyclopedia of popular recipes. 
 
-## Features
 
 ## Screenshots
 ![Screenshot](screen.png?raw=true "Optional Title")
