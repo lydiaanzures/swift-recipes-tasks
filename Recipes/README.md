@@ -7,6 +7,7 @@ This Recipes Encyclopedia is an iOS app designed as a colorful encyclopedia of p
 ## Features
 
 ## Screenshots
+![Screenshot](/screen.png?raw=true "Optional Title")
 
 ## Implementation 
 Tutorial series used - "iOS tutorial for Beginner App Developers": https://www.youtube.com/watch?v=PNI-NgOz1jM
