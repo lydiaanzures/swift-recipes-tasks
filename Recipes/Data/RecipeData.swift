@@ -68,77 +68,63 @@ let recipesData: [Recipe] = [
       nutrition: ["136 kJ (33 kcal)","4.89 g","0.3 g","0.67 g","B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Lemon",
-      headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
-      image: "lemon",
+      title: "Caipirinha",
+      headline: "Refreshing and easy to make, the cocktail contains fresh lime juice, sugar and cachaça—a spirit as central to Brazilian identity as samba, soccer and carnival.",
+      image: "caipirinha",
+      gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
+      description: """
+        First made in the 1500s, cachaça is similar to rum, but it has a flavor all its own.
+
+        INGREDIENTS
+        1 lime, cut into wedges
+        2 teaspoons sugar
+        2 ounces cachaça
+        Garnish: lime wheel
+        
+        Steps
+        1. In a double rocks glass, muddle the lime wedges and sugar.
+        2. Fill the glass with ice, add the cachaça, and stir briefly.
+        3. Garnish with a lime wheel.
+
+        """,
+      nutrition: ["165 kJ (63 kcal)","4.89 g","0.1 g","0.67 g","A, C","Calcium, Iron, Magnesium, Potassium, Sodium"]
+    ),
+  Recipe(
+//    https://thestayathomechef.com/fried-chicken/
+//    https://www.stickpng.com/img/download/580b57fbd9996e24bc43c0cc
+      title: "Fried Chicken",
+      headline: "When it comes to chicken there just isn’t anything more delicious than a juicy, crispy piece of good fried chicken.",
+      image: "chicken",
       gradientColors: [Color("ColorLemonLight"), Color("ColorLemonDark")],
       description: """
-        The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.
+        INGREDIENTS 6 chicken thighs 6 chicken drumsticks 3 cups buttermilk 1/2 cup Buffalo Hot Sauce optional 2 teaspoons salt 1 teaspoon pepper
 
-        The tree's ellipsoidal yellow fruit is used for culinary and non-culinary purposes throughout the world, primarily for its juice, which has both culinary and cleaning uses. The pulp and rind are also used in cooking and baking. The juice of the lemon is about 5% to 6% citric acid, with a pH of around 2.2, giving it a sour taste. The distinctive sour taste of lemon juice makes it a key ingredient in drinks and foods such as lemonade and lemon meringue pie.
-
-        NUTRITION
-
-        Lemon is a rich source of vitamin C, providing 64% of the Daily Value in a 100 g reference amount (table). Other essential nutrients are low in content.
-
+        INSTRUCTIONS
+        In a large mixing bowl, whisk together buttermilk, hot sauce (optional, for added flavor), salt, and pepper in a mixing bowl. Add in chicken pieces. Cover the bowl with plastic wrap and refrigerate 4 hours.
+        When ready to cook, pour the vegetable oil in a skillet until it is about 3/4 inch deep. Heat to 350 degrees.
+        Prepare the breading by combining the flour, cornstarch, onion powder, garlic powder, oregano, basil, white pepper, cayenne pepper, paprika, and salt in a gallon sized resealable plastic bag or shallow dish. Mix it thoroughly.
+        Working one at a time, remove chicken pieces from buttermilk mixture. Shake it gently to remove the excess. Place it in the breading mix and coat thoroughly. Tap off the excess.
+        Place the breaded chicken into the 350 degree oil. Fry 3 or 4 pieces at a time. The chicken will drop the temperature of the oil so keep it as close to 350 degrees as possible. Fry each piece for 14 minutes, turning each piece about half way through, until the chicken reaches an internal temperature of 165 degrees F.
+        Remove from the oil and place on paper towels. Let them rest for at least 10 minutes before serving.
         Lemons contain numerous phytochemicals, including polyphenols, terpenes, and tannins.[14] Lemon juice contains slightly more citric acid than lime juice (about 47 g/l), nearly twice the citric acid of grapefruit juice, and about five times the amount of citric acid found in orange juice.
 
-        CULINARY
-        
-        Lemon juice, rind, and peel are used in a wide variety of foods and drinks. The whole lemon is used to make marmalade, lemon curd and lemon liqueur. Lemon slices and lemon rind are used as a garnish for food and drinks. Lemon zest, the grated outer rind of the fruit, is used to add flavor to baked goods, puddings, rice, and other dishes.
-
-        JUICE
-
-        Lemon juice is used to make lemonade, soft drinks, and cocktails. It is used in marinades for fish, where its acid neutralizes amines in fish by converting them into nonvolatile ammonium salts. In meat, the acid partially hydrolyzes tough collagen fibers, tenderizing it.[18] In the United Kingdom, lemon juice is frequently added to pancakes, especially on Shrove Tuesday.
-
-        Lemon juice is also used as a short-term preservative on certain foods that tend to oxidize and turn brown after being sliced (enzymatic browning), such as apples, bananas, and avocados, where its acid denatures the enzymes.
-
-        PEEL
-
-        In Morocco, lemons are preserved in jars or barrels of salt. The salt penetrates the peel and rind, softening them, and curing them so that they last almost indefinitely.[19] The preserved lemon is used in a wide variety of dishes. Preserved lemons can also be found in Sicilian, Italian, Greek, and French dishes.
-
-        The peel can be used in the manufacture of pectin, a polysaccharide used as a gelling agent and stabilizer in food and other products.[20]
-
-        OIL
-
-        Lemon oil is extracted from oil-containing cells in the skin. A machine breaks up the cells, and uses a water spray to flush off the oil. The oil/water mixture is then filtered and separated by centrifugation.[21]
-
-        LEAVES
-
-        The leaves of the lemon tree are used to make a tea and for preparing cooked meats and seafoods.
         """,
       nutrition: ["121 kJ (29 kcal)","2.5 g","0.3 g","1.1 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
   Recipe(
-      title: "Plum",
-      headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
-      image: "plum",
+      title: "Fattoush Salad",
+      headline: "a Levantine salad made from toasted or fried pieces of khubz combined with mixed greens and other vegetables, such as radishes and tomatoes.",
+      image: "salad",
       gradientColors: [Color("ColorPlumLight"), Color("ColorPlumDark")],
       description: """
-        A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
+        Fattoush Salad makes a frequent appearance on the Middle Eastern dinner table. A simple chopped salad dressed in a zesty lime vinaigrette. Homemade pita chips serve as croutons! See the video and step-by-step for how to make fattoush below.
 
-        Mature plum fruit may have a dusty-white waxy coating that gives them a glaucous appearance. This is an epicuticular wax coating and is known as "wax bloom". Dried plum fruits are called "dried plums" or prunes, although, in many countries, prunes are a distinct type of dried plum having a wrinkled appearance (Li hing mui for instance).
+        Fattoush is essentially a "bread salad," said to have originated in Northern Lebanon.  Lebanese farmers would fry leftover pita scraps in a bit of olive oil for extra flavor. And to build their fattoush, they'd simply throw the pita chips in with whatever in-season vegetables and herbs they have on hand.
 
         DESCRIPTION
 
-        Plums are a diverse group of species. The commercially important plum trees are medium-sized, usually pruned to 5–6 metres height. The tree is of medium hardiness. Without pruning, the trees can reach 12 metres in height and spread across 10 metres. They blossom in different months in different parts of the world; for example, in about January in Taiwan and early April in the United Kingdom.
-
-        Fruits are usually of medium size, between 2 and 7 centimetres in diameter, globose to oval. The flesh is firm and juicy. The fruit's peel is smooth, with a natural waxy surface that adheres to the flesh. The plum is a drupe, meaning its fleshy fruit surrounds a single hard seed.
-
-        CULTIVATION
-
-        When it flowers in the early spring, a plum tree will be covered in blossoms, and in a good year approximately 50% of the flowers will be pollinated and become plums. Flowering starts after 80 growing degree days.
-
-        If the weather is too dry, the plums will not develop past a certain stage, but will fall from the tree while still tiny, green buds, and if it is unseasonably wet or if the plums are not harvested as soon as they are ripe, the fruit may develop a fungal condition called brown rot. Brown rot is not toxic, and some affected areas can be cut out of the fruit, but unless the rot is caught immediately, the fruit will no longer be edible. Plum is used as a food plant by the larvae of some Lepidoptera, including November moth, willow beauty and short-cloaked moth.
-
-        The taste of the plum fruit ranges from sweet to tart; the skin itself may be particularly tart. It is juicy and can be eaten fresh or used in jam-making or other recipes. Plum juice can be fermented into plum wine. In central England, a cider-like alcoholic beverage known as plum jerkum is made from plums. Dried, salted plums are used as a snack, sometimes known as saladito or salao.
-
-        Various flavors of dried plum are available at Chinese grocers and specialty stores worldwide. They tend to be much drier than the standard prune. Cream, ginseng, spicy, and salty are among the common varieties. Licorice is generally used to intensify the flavor of these plums and is used to make salty plum drinks and toppings for shaved ice or baobing. Pickled plums are another type of preserve available in Asia and international specialty stores.
-
-        The Japanese variety, called umeboshi, is often used for rice balls, called onigiri or omusubi. The ume, from which umeboshi are made, is more closely related, however, to the apricot than to the plum. In the Balkans, plum is converted into an alcoholic drink named slivovitz (plum brandy) (Serbian: šljivovica).
-
-        A large number of plums, of the Damson variety, are also grown in Hungary, where they are called szilva and are used to make lekvar (a plum paste jam), palinka (traditional fruit brandy), plum dumplings, and other foods. In Romania, 80% of the plum production is used to create a similar brandy, called țuică.
-        """,
+        If you were to order a basic fattoush salad at a local restaurant, you likely find: cucumbers, tomatoes, purslane leaves (or lettuce), radish, and green onions.  Fresh herbs like parsely or mint, or both. A simple zesty vinaigrette and a generous dash of sumac spice give fattoush its distinctly complex flavor.
+    """,
       nutrition: ["192 kJ (46 kcal)","9.92 g","0.28 g","0.7 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
@@ -234,48 +220,46 @@ let recipesData: [Recipe] = [
       nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Gooseberry",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "gooseberry",
+      title: "Cheddar Burger",
+      headline: "Sink your teeth into a delicious restaurant-style, hamburger recipe made from lean beef.",
+      image: "burger",
       gradientColors: [Color("ColorGooseberryLight"), Color("ColorGooseberryDark")],
       description: """
-        The gooseberry (/ˈɡuːsbɛri/ or /ˈɡuːzbɛri/ (American and northern British) or /ˈɡʊzbəri/ (southern British)), with scientific names Ribes uva-crispa (and syn. Ribes grossularia), is a species of Ribes (which also includes the currants).
+        Skip the prepackaged patties and take the extra time to craft up your own, and that little extra effort will be worth it. To make cheeseburgers, about 1 minute before burgers are done, top with sliced cheese; continue cooking until cheese begins to melt.
 
-        It is native to Europe, the Caucasus and northern Africa. The species is also sparingly naturalized in scattered locations in North America. Gooseberry bushes produce an edible fruit and are grown on both a commercial and domestic basis. Its native distribution is unclear, since it may have escaped from cultivation and become naturalized. For example, in Britain, some sources consider it to be a native,[4] others to be an introduction.
-
-        Although usually placed as a subgenus within Ribes, a few taxonomists treat Grossularia as a separate genus, although hybrids between gooseberry and blackcurrant (e.g., the jostaberry) are possible. The subgenus Grossularia differs somewhat from currants, chiefly in their spiny stems, and in that their flowers grow one to three together on short stems, not in racemes. It is one of several similar species in the subgenus Grossularia; for the other related species (e.g., North American gooseberry Ribes hirtellum), see the genus page Ribes.
-
-        CULTIVATION
-
-        One method of propagating gooseberries is by cuttings rather than raising from seed; cuttings planted in the autumn will take root quickly and can begin to bear fruit within a few years. Those growing from seeds will rapidly produce healthy heavily yielding bushes. Pruning should be carried out to allow light in and give the new growth for next year's branches an opportunity to grow. Fruit is produced on lateral spurs and on the previous year's shoots.[13] The main aim is to let the light in and a subsidiary purpose is to allow picking without excessive scratching from the spines.
-
-        Heavy nitrogen composting must be avoided as too much nitrogen will produce extensive growth and weaken the bush. This will make the bush susceptible to mildew. The fruit should best be picked off when large to reach maximum sweetness. Supermarkets tend to have theirs picked early and before they are ripe and sweet to give a long shelf life. Heavily laden branches should be cut off complete with berries, this really benefits future crops as it lets the light reach the new growth.
-
-        CULINARY
-
-        Gooseberries are edible and can be eaten as-is, or used as an ingredient in desserts, such as pies, fools and crumbles. Early pickings are generally sour and more appropriate for culinary use. They are also used to flavour beverages such as sodas, flavoured waters, or milk, and can be made into fruit wines and teas. Gooseberries can be preserved in the form of jams, dried fruit, or as the primary or a secondary ingredient in pickling, or stored in sugar syrup.
+        DirectionsInstructions Checklist
+        In a bowl, mix ground beef, egg, onion, bread crumbs, Worcestershire, garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper until well blended. Divide mixture into four equal portions and shape each into a patty about 4 inches wide.
+        Lay burgers on an oiled barbecue grill over a solid bed of hot coals or high heat on a gas grill (you can hold your hand at grill level only 2 to 3 seconds); close lid on gas grill. Cook burgers, turning once, until browned on both sides and no longer pink inside (cut to test), 7 to 8 minutes total. Remove from grill.
+        Lay buns, cut side down, on grill and cook until lightly toasted, 30 seconds to 1 minute.
+        Spread mayonnaise and ketchup on bun bottoms. Add lettuce, tomato, burger, onion, and salt and pepper to taste. Set bun tops in place
         """,
       nutrition: ["184 kJ (44 kcal)","6.15","0.58 g","0.88 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Mango",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "mango",
+      title: "Salmon Nigiri",
+      headline: "These tasty nigiri are fun to make at home, and cost a lot less than restaurant sushi.",
+      image: "sushi",
       gradientColors: [Color("ColorMangoLight"), Color("ColorMangoDark")],
       description: """
-        A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae. Mangoes are native to South Asia, from where the "common mango" or "Indian mango", Mangifera indica, has been distributed worldwide to become one of the most widely cultivated fruits in the tropics. Other Mangifera species (e.g. horse mango, Mangifera foetida) are grown on a more localized basis.
+        INGREDIENTS
+        1 1/2 cups (320 g) Calrose rice (sushi rice)
+        1 3/4 cups (430 ml) water
+        1 tsp salt
+        3 tbsp (45 ml) rice vinegar
+        1 tbsp sugar
+        1 sushi-grade skinless salmon steak, about 1 lb (450 g) (see note)
+        1 tsp (5 ml) wasabi
+        Soy sauce for sushi and sashimi, to taste
+        Pickled ginger, to taste
 
-        Worldwide, there are several hundred cultivars of mango. Depending on the cultivar, mango fruit varies in size, shape, sweetness, skin color, and flesh color which may be pale yellow, gold, or orange. Mango is the national fruit of India and Pakistan, and the national tree of Bangladesh. It is the unofficial national fruit of the Philippines.
-
-        DESCRIPTION
-
-        Mango trees grow to 35–40 m (115–131 ft) tall, with a crown radius of 10 m (33 ft). The trees are long-lived, as some specimens still fruit after 300 years.[9] In deep soil, the taproot descends to a depth of 6 m (20 ft), with profuse, wide-spreading feeder roots and anchor roots penetrating deeply into the soil.[1] The leaves are evergreen, alternate, simple, 15–35 cm (5.9–13.8 in) long, and 6–16 cm (2.4–6.3 in) broad; when the leaves are young they are orange-pink, rapidly changing to a dark, glossy red, then dark green as they mature. The flowers are produced in terminal panicles 10–40 cm (3.9–15.7 in) long; each flower is small and white with five petals 5–10 mm (0.20–0.39 in) long, with a mild, sweet fragrance. Over 500 varieties of mangoes are known,[1] many of which ripen in summer, while some give a double crop. The fruit takes four to five months from flowering to ripen.
-
-        CULTIVATION
-
-        Mangoes have been cultivated in South Asia for thousands of years and reached Southeast Asia between the fifth and fourth centuries BCE. By the 10th century CE, cultivation had begun in East Africa.[12] The 14th-century Moroccan traveler Ibn Battuta reported it at Mogadishu. Cultivation came later to Brazil, Bermuda, the West Indies, and Mexico, where an appropriate climate allows its growth.
-
-        The mango is now cultivated in most frost-free tropical and warmer subtropical climates; almost half of the world's mangoes are cultivated in India alone, with the second-largest source being China. Mangoes are also grown in Andalusia, Spain (mainly in Málaga province), as its coastal subtropical climate is one of the few places in mainland Europe that permits the growth of tropical plants and fruit trees. The Canary Islands are another notable Spanish producer of the fruit. Other cultivators include North America (in South Florida and California's Coachella Valley), South and Central America, the Caribbean, Hawai'i, south, west, and central Africa, Australia, China, South Korea, Pakistan, Bangladesh, and Southeast Asia. Though India is the largest producer of mangoes, it accounts for less than 1% of the international mango trade; India consumes most of its own production.
+        PREPARATION
+        1. In a bowl, cover the rice with cold water. Rinse the rice until the water becomes cloudy. Drain and repeat 4 to 5 times or until the water runs clear. Leave the rice in a strainer until thoroughly drained.
+        2. In a saucepan over high heat, bring the rice, water and salt to a boil. Cover and cook over low heat for 15 minutes or until the liquid is completely absorbed. Remove from the heat and let rest, covered, for 10 minutes.
+        3. Meanwhile, in a small saucepan over medium-low heat, gently warm the vinegar and sugar until the sugar has dissolved.
+        4. Spread the cooked rice onto a baking sheet and pour the vinegar mixture overtop. Gently combine to coat and separate the grains of rice. Spread out the rice again and cover with plastic wrap. Let cool slightly.
+        5. With a sharp knife, trim and discard the discoloured sections of the salmon. While holding the knife at 30°, finely slice the fish against the grain to obtain slices 4 inches (10 cm) long (see note). Set aside on a cold plate or refrigerate while shaping the rice balls.
+        6. With slightly moistened hands, shape the rice into 2 1/2-inch (6 cm) oblong balls using 2 tbsp of rice for each. Spread a small amount of wasabi onto each rice ball, to taste, and cover with a salmon slice (see note).
+        7. Serve with the soy sauce and pickled ginger.
 
         CULINARY
 
@@ -324,9 +308,9 @@ let recipesData: [Recipe] = [
       nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Cherry",
+      title: "Cherry Pie",
       headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "cherry",
+      image: "cherrypie",
       gradientColors: [Color("ColorCherryLight"), Color("ColorCherryDark")],
       description: """
         A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.
@@ -346,52 +330,48 @@ let recipesData: [Recipe] = [
       nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
   Recipe(
-      title: "Grapefruit",
-      headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
-      image: "grapefruit",
+    //https://www.stickpng.com/img/download/5ea45798b033640004a14ac8
+      title: "Egyptian Medames",
+      headline: "Medames is the Egyptian breakfast dish of favas stewed with tahini and seasoned with garlic, cumin, and lemon.",
+      image: "medames",
       gradientColors: [Color("ColorGrapefruitLight"), Color("ColorGrapefruitDark")],
       description: """
-        The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century.[2] When found, it was nicknamed the "forbidden fruit". Frequently, it is misidentified as the very similar parent species, pomelo.
+        Ingredients
+        3 cloves garlic
+        1 teaspoon cumin seeds, freshly toasted
+        Kosher salt
+        2 (15-ounce) cans fava beans
+        3 tablespoons tahini
+        2 to 3 tablespoons lemon juice from 2 lemons, or more to taste
 
-        The "grape" part of the name alludes to clusters of fruit on the tree that often appear similar to grape clusters. The interior flesh is segmented and varies in color from white to yellow to pink to red.
-
-        DESCRIPTION
-
-        The evergreen grapefruit trees usually grow to around 5–6 m (16–20 ft) tall, although they may reach 13–15 m (43–49 ft). The leaves are glossy, dark green, long (up to 15 cm (5.9 in)), and thin. It produces 5 cm (2 in) white four-petaled flowers. The fruit is yellow-orange skinned and generally, an oblate spheroid in shape; it ranges in diameter from 10 to 15 cm (3.9 to 5.9 in). The flesh is segmented and acidic, varying in color depending on the cultivars, which include white, pink, and red pulps of varying sweetness (generally, the redder varieties are the sweetest). The 1929 U.S. Ruby Red (of the 'Redblush' variety) has the first grapefruit patent.
-
-        CULINARY
-
-        Grapefruit varieties are differentiated by the flesh color of fruit they produce. Common varieties are red, white, and pink pulp colors. Flavors range from highly acidic and somewhat sour to sweet and tart, resulting from composition of sugars (mainly sucrose), organic acids (mainly citric acid), and monoterpenes and sesquiterpenes providing aromas.
-
-        Grapefruit mercaptan, a sulfur-containing terpene, is one of the aroma compounds influencing taste and odor of grapefruit, compared with other citrus fruits.
-
-        Raw grapefruit is 90% water, 8% carbohydrates, 1% protein, and negligible fat (table). In a 100-g reference amount, raw grapefruit provides 33 Calories and is a rich source of vitamin C (40% of the Daily Value), with no other micronutrients in significant content.
-
-        In Costa Rica, especially in Atenas, grapefruit are often cooked to remove their sourness, rendering them as sweets; they are also stuffed with dulce de leche, resulting in a dessert called toronja rellena (stuffed grapefruit). In Haiti, grapefruit is used primarily for its juice (jus de Chadèque), but also is used to make jam (confiture de Chadèque).
+        Directions
+        Put garlic cloves, cumin seeds, and a pinch of salt in a mortar and pestle and crush until seeds are cracked and garlic is in small, flimsy chunks. If you don't have a mortar and pestle, mince garlic very fine.
+        Empty fava beans (with liquid) into a medium saucepan and combine with tahini and garlic paste. Cook over medium-high heat, stirring frequently, until liquid retains some brothiness but turns thick and sauce-like, about 5 minutes.
+        Add lemon juice and salt to taste. Mash one third of the beans with a potato masher to thicken if desired, then serve with toasted pita.
         """,
       nutrition: ["138 kJ (33 kcal)","7.31 g","0.10 g","0.8 g","B1, B2, B3, B5, B6, B9, C, E","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
   Recipe(
-      title: "Apple",
-      headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
-      image: "apple",
+      title: "Clover Sandwich",
+      headline: "The sandwiches at this high-end relaxed chain branch are made with locally sourced ingredients.",
+      image: "clover",
+      //https://www.stickpng.com/img/download/5b8ed966a639e004e1cab56b
       gradientColors: [Color("ColorAppleLight"), Color("ColorAppleDark")],
       description: """
-        An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian tradition.
+        For a quick breakfast, local vegetarian mini-chain Clover offers a popover sandwich, and it comes with a choice of an egg or roasted tempeh. Also inside: cheddar, tomatoes, fried leeks, and a bit of vegan mayo. It pairs exceptionally well with one of Clover's hot coffees or teas. Clover also serves a few other breakfast sandwiches, including a “sausage,” egg, and cheese on a pita, using the Impossible Burger meat substitute.
 
-        DESCRIPTION
-
-        The apple is a deciduous tree, generally standing 2 to 4.5 m (6 to 15 ft) tall in cultivation and up to 9 m (30 ft) in the wild. When cultivated, the size, shape and branch density are determined by rootstock selection and trimming method. The leaves are alternately arranged dark green-colored simple ovals with serrated margins and slightly downy undersides.
-
-        Blossoms are produced in spring simultaneously with the budding of the leaves and are produced on spurs and some long shoots. The 3 to 4 cm (1 to 1 1⁄2 in) flowers are white with a pink tinge that gradually fades, five petaled, with an inflorescence consisting of a cyme with 4–6 flowers. The central flower of the inflorescence is called the "king bloom"; it opens first and can develop a larger fruit.
-
-        CULTIVATION
-
-        There are more than 7,500 known cultivars of apples.[44] Cultivars vary in their yield and the ultimate size of the tree, even when grown on the same rootstock.[45] Different cultivars are available for temperate and subtropical climates. The UK's National Fruit Collection, which is the responsibility of the Department of Environment, Food, and Rural Affairs, includes a collection of over 2,000 cultivars of apple tree in Kent.
-
-        The UK's national fruit collection database contains much information on the characteristics and origin of many apples, including alternative names for what is essentially the same "genetic" apple cultivar. Most of these cultivars are bred for eating fresh (dessert apples), though some are cultivated specifically for cooking (cooking apples) or producing cider. Cider apples are typically too tart and astringent to eat fresh, but they give the beverage a rich flavor that dessert apples cannot.
-
-        Commercially popular apple cultivars are soft but crisp. Other desirable qualities in modern commercial apple breeding are a colorful skin, absence of russeting, ease of shipping, lengthy storage ability, high yields, disease resistance, common apple shape, and developed flavor. Modern apples are generally sweeter than older cultivars, as popular tastes in apples have varied over time. Most North Americans and Europeans favor sweet, subacid apples, but tart apples have a strong minority following. Extremely sweet apples with barely any acid flavor are popular in Asia, especially the Indian Subcontinent.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         """,
       nutrition: ["218 kJ (52 kcal)","10.39 g","0.17 g","0.26 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnasium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     )

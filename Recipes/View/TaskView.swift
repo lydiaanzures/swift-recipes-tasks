@@ -3,8 +3,6 @@
 //  Recipes (iOS)
 //
 //  Created by Lydia Anzures
-//
-
 
 import SwiftUI
 import CoreData
