@@ -32,7 +32,8 @@ The following steps outline the implementation steps learned during the course o
 - Ability to configure Portrait Mode, Landscape Mode in XCode Preferences for App
 - Ability to create different views for different components, even within same page (i.e. Recipe Header and Task View are separate files but come together in a Recipe Detail View.
 - GroupBox - creates a stylized view of info grouped together - used in Nutrition Info to highlight and separate from rest of Recipe information
-- Styling and formatting happens directly below text, image, etc. components. 
+- Styling and formatting - SwiftUI gives an amazingly concise declarative approach to programming user interfaces
+
 
 ## Technologies
 - Swift 5
