@@ -25,6 +25,8 @@ The following steps outline the implementation steps learned during the course o
     - Adding a scale effect to the view
 5. Creating a new SwiftUI file to create an Onboarding view with Onboarding Cards, and using a for each loop to display 6 recipe cards.
 6. Create Views for Major Components of Screens - Recipe Detailed View, Recipe Row View, Nutrition Facts Views, etc. These can be grouped together to build a page or screen. 
+7. Set Main App file to load pages conditionally. If a variable is true, load one route, else load another. We can use this to load either an onboarding view if it's the first time someone is opening the app, or just go straight to the content. 
+8. When building screens/pages, you can load the smaller component views designed in the Views folder. 
 
 ## Selection of Cool Things Learned
 - isAnimating() function - Returns a Boolean value indicating whether the animation is running - used for Example in the Recipe Card View to animate the food image, also used iin Recipe Header view. 
@@ -33,12 +35,16 @@ The following steps outline the implementation steps learned during the course o
 - Ability to create different views for different components, even within same page (i.e. Recipe Header and Task View are separate files but come together in a Recipe Detail View.
 - GroupBox - creates a stylized view of info grouped together - used in Nutrition Info to highlight and separate from rest of Recipe information
 - Styling and formatting - SwiftUI gives an amazingly concise declarative approach to programming user interfaces
+- CoreData - when starting a project, Xcode will generate all the required file templates with code and the managed object model for us if we select the CoreData option. The CoreData allows us to Create, Read, Update and Delete a database item (CRUD method). 
+-  CoreData is a native solution provided by Apple to store, retrieve, edit, update or delete data. It's the model layer in the application. In this case, CoreData manages the item/task entity, and it's attribute is a timestamp which is a Date Field. 
 
 
 ## Technologies
 - Swift 5
 - SwiftUI 2.0 Framework
 - iOS 14
+- Core Data integration
+- CRUD functionality
 
 ## View Controller Diagram
 
