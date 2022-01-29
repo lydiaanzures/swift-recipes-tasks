@@ -60,9 +60,9 @@ if required use predicate for filter data
 - Core Data integration
 - CRUD functionality
 
-## View Controller Diagram
-
 ## Future Steps
+- Connect to an API for adding recipes
+- Edit model from simple timestamp to task item with string type
 
 
 
