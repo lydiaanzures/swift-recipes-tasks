@@ -41,6 +41,7 @@ The following steps outline the implementation steps learned during the course o
 - CoreData - when starting a project, Xcode will generate all the required file templates with code and the managed object model for us if we select the CoreData option. The CoreData allows us to Create, Read, Update and Delete a database item (CRUD method). 
 -  CoreData is a native solution provided by Apple to store, retrieve, edit, update or delete data. It's the model layer in the application. In this case, CoreData manages the item/task entity, and it's attribute is a timestamp which is a Date Field. It isn't a database, it operates on in memory (it keeps the object graph it manages in memory). When setting up your project, prompt you to configure entities which represent data models. You can define things for each entity there, like the Attributes and relationships
 -  Coredata explanation - https://medium.com/@ankurvekariya/core-data-crud-with-swift-4-2-for-beginners-40efe4e7d1cc
+-  Used a color gradient to add dimension to recipe detail views
 ### Create Records to Core Data
 The process of adding the records to Core Data has following tasks
 - Refer to persistentContainer from appdelegate
